@@ -19,6 +19,8 @@ def bc_test():
         with engine.prove_goal('bc_simple_rules.who_is($character)') as gen: #STUDENTS: you will need to edit this line
             for vars, plan in gen:
                 print("The Character is: %s" % (vars['character'])) #STUDENTS: you will need to edit this line
+            if vars.size == 0   
+                print("Your character is not recognizable")
     except Exception:
         # This converts stack frames of generated python functions back to the
         # .krb file.
