@@ -1,6 +1,8 @@
 # bc_simple_rules.krb
 
 who_is_Black_Widow
+    use who_is(Black_Widow)
+    when
         facts.is_man(False)
         facts.is_super_human(True)
         facts.able_to_fly(False)
@@ -11,6 +13,7 @@ who_is_Black_Widow
         facts.is_product_of_science(False)
 
 who_is_Scarlet_Witch
+    use who_is(Scarlet_Witch)
     when
         facts.is_man(False)
         facts.is_super_human(True)
@@ -23,6 +26,7 @@ who_is_Scarlet_Witch
 		
 	
 who_is_Captain_Marvell
+    use who_is(Captain_Marvell)
     when
         facts.is_man(False)
         facts.is_super_human(True)
@@ -34,6 +38,7 @@ who_is_Captain_Marvell
         facts.is_product_of_science(True)
 		
 who_is_Hulk
+    use who_is(Hulk)
     when
         facts.is_man(True)
         facts.is_super_human(True)
@@ -45,6 +50,7 @@ who_is_Hulk
         facts.is_product_of_science(True)
 	
 who_is_Iron_Man
+    use who_is(Iron_Man)
     when
         facts.is_man(True)
         facts.is_super_human(False)
@@ -56,6 +62,7 @@ who_is_Iron_Man
         facts.is_product_of_science(True)
 
 who_is_Thor
+    use who_is(Thor)
     when
         facts.is_man(True)
         facts.is_super_human(False)
@@ -67,6 +74,7 @@ who_is_Thor
         facts.is_product_of_science(False)
 		
 who_is_Black_Panther
+    use who_is(Black_Panther)
     when
         facts.is_man(True)
         facts.is_super_human(True)
@@ -78,6 +86,7 @@ who_is_Black_Panther
         facts.is_product_of_science(False)
 
 who_is_Ant_Man
+    use who_is(Ant_Man)
     when
         facts.is_man(True)
         facts.is_super_human(False)
