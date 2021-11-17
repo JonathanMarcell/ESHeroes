@@ -84,8 +84,8 @@ who_is_Black_Panther
         questions.is_rich(True)
         questions.is_product_of_science(False)
 
-who_is_Ant-Man
-    use who_is(Ant-Man)
+who_is_Ant_Man
+    use who_is(Ant_Man)
     when
         questions.is_man(True)
         questions.is_super_human(False)
