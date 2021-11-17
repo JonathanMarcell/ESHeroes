@@ -1,36 +1,100 @@
 # bc_simple_rules.krb
 
-no_rain
-    use what_to_bring(no_rain_gear)
+who_is_Black_Widow
+    use who_is(Black_Widow)
     when
-        questions.is_raining(False)
-
-what_to_bring_raincoat
-    use what_to_bring(raincoat)
+        questions.is_man(False)
+        questions.is_super_human(True)
+        questions.able_to_fly(False)
+        questions.using_weapon(True)
+        questions.has_super_power(True)
+        questions.close_combat(True)
+        questions.is_rich(False)
+        questions.is_product_of_science(False)
+		
+who_is_Scarlet_Witch
+    use who_is(Scarlet_Witch)
     when
-        questions.is_raining(True)
-        questions.is_windy(False)
+        questions.is_man(False)
+        questions.is_super_human(True)
+        questions.able_to_fly(True)
+        questions.using_weapon(False)
+        questions.has_super_power(True)
+        questions.close_combat(False)
+        questions.is_rich(False)
+        questions.is_product_of_science(False)
 	
-what_to_bring_umbrella
-    use what_to_bring(umbrella)
+who_is_Captain_Marvell
+    use who_is(Captain_Marvell)
     when
-        questions.is_raining(True)
-        questions.is_windy(True)
+        questions.is_man(False)
+        questions.is_super_human(True)
+        questions.able_to_fly(True)
+        questions.using_weapon(False)
+        questions.has_super_power(True)
+        questions.close_combat(True)
+        questions.is_rich(False)
+        questions.is_product_of_science(True)
 
-what_to_bring_marshmellos
-    use what_to_bring(marshmellos)
+who_is_Hulk
+    use who_is(Hulk)
     when
-        questions.any_disasters($ans)
-        check $ans in (1,)
+        questions.is_man(True)
+        questions.is_super_human(True)
+        questions.able_to_fly(False)
+        questions.using_weapon(False)
+        questions.has_super_power(True)
+        questions.close_combat(True)
+        questions.is_rich(False)
+        questions.is_product_of_science(True)
 	
-what_to_bring_kite
-    use what_to_bring(kite)
+who_is_Iron_Man
+    use who_is(Iron_Man)
     when
-        questions.any_disasters($ans)
-        check $ans in (2,3)
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.able_to_fly(True)
+        questions.using_weapon(True)
+        questions.has_super_power(False)
+        questions.close_combat(False)
+        questions.is_rich(True)
+        questions.is_product_of_science(True)
 
-what_to_bring_tissues
-    use what_to_bring(tissues)
+who_is_Thor
+    use who_is(Thor)
     when
-        questions.any_disasters($ans)
-        check $ans in (4,)
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.able_to_fly(True)
+        questions.using_weapon(True)
+        questions.has_super_power(True)
+        questions.close_combat(True)
+        questions.is_rich(True)
+        questions.is_product_of_science(False)
+		
+who_is_Black_Panther
+    use who_is(Black_Panther)
+    when
+        questions.is_man(True)
+        questions.is_super_human(True)
+        questions.able_to_fly(False)
+        questions.using_weapon(True)
+        questions.has_super_power(True)
+        questions.close_combat(True)
+        questions.is_rich(True)
+        questions.is_product_of_science(False)
+
+who_is_Ant-Man
+    use who_is(Ant-Man)
+    when
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.able_to_fly(False)
+        questions.using_weapon(False)
+        questions.has_super_power(True)
+        questions.close_combat(False)
+        questions.is_rich(False)
+        questions.is_product_of_science(True)
+		
+		
+		

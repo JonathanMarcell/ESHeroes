@@ -1,22 +1,41 @@
 # questions.kqb
 
-any_disasters($ans)
-	Are any of the following disasters currently occurring?
-	---
-	$ans = select_1
-		1: Forest Fire
-		2: Tornado
-		3: Hurricane
-		4: Pandemic
-		5: None of the above
-			! Thank goodness
-
-is_raining($ans)
-	Is it raining?
+is_man($ans)
+	is this character a man?
 	---
 	$ans = yn
 	
-is_windy($ans)
-	Is it windy?
+is_super_human($ans)
+	is this character a super human?
 	---
 	$ans = yn
+	
+able_to_fly($ans)
+	is this character able to fly?
+	---
+	$ans = yn
+	
+has_super_power($ans)
+	Do this character have super power?
+	---
+	$ans = yn
+	
+using_weapon($ans)
+	is this character wields a weapon(s)?
+	---
+	$ans = yn
+	
+close_combat($ans)
+	is this character a close combatant?
+	---
+	$ans = yn
+	
+is_rich($ans)
+	is this character a rich person?
+	---
+	$ans = yn	
+
+is_product_of_science($ans)
+	is this character a product of science?
+	---
+	$ans = yn		
