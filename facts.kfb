@@ -1,6 +1,12 @@
-#Weather facts
-raining(True)
-windy(True)
+# facts
+is_man(True)
+is_super_human(True)
+able_to_fly(True)
+using_weapon(True)
+has_super_power(True)
+close_combat(True)
+is_rich(True)
+is_product_of_science(True)
 
 
 

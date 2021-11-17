@@ -1,24 +1,90 @@
 # bc_simple_rules.krb
 
-wear_rain_protection
-    use rain_protection(True)
-    when
-	facts.raining(True)
+who_is_Black_Widow
+        is_man(False)
+        is_super_human(True)
+        able_to_fly(False)
+        using_weapon(True)
+        has_super_power(True)
+        lose_combat(True)
+        is_rich(False)
+        is_product_of_science(False)
 
-what_to_bring_raincoat
-    use what_to_bring(raincoat)
+who_is_Scarlet_Witch
     when
-	rain_protection($protection)
-	facts.windy(True)
+        is_man(False)
+        is_super_human(True)
+        able_to_fly(True)
+        using_weapon(False)
+        has_super_power(True)
+        close_combat(False)
+        is_rich(False)
+        is_product_of_science(False)
+		
 	
-what_to_bring_umbrella
-    use what_to_bring(umbrella)
+who_is_Captain_Marvell
     when
-	rain_protection($protection)
-	facts.windy(False)
+        is_man(False)
+        is_super_human(True)
+        able_to_fly(True)
+        using_weapon(False)
+        has_super_power(True)
+        close_combat(True)
+        is_rich(False)
+        is_product_of_science(True)
+		
+who_is_Hulk
+    when
+        is_man(True)
+        is_super_human(True)
+        able_to_fly(False)
+        using_weapon(False)
+        has_super_power(True)
+        close_combat(True)
+        is_rich(False)
+        is_product_of_science(True)
+	
+who_is_Iron_Man
+    when
+        is_man(True)
+        is_super_human(False)
+        able_to_fly(True)
+        using_weapon(True)
+        has_super_power(False)
+        close_combat(False)
+        is_rich(True)
+        is_product_of_science(True)
 
-what_to_bring_nothing
-    use what_to_bring(nothing)
+who_is_Thor
     when
-	facts.raining(False)
-	facts.windy(False)
+        is_man(True)
+        is_super_human(False)
+        able_to_fly(True)
+        using_weapon(True)
+        has_super_power(True)
+        close_combat(True)
+        is_rich(True)
+        is_product_of_science(False)
+		
+who_is_Black_Panther
+    when
+        is_man(True)
+        is_super_human(True)
+        able_to_fly(False)
+        using_weapon(True)
+        has_super_power(True)
+        close_combat(True)
+        is_rich(True)
+        is_product_of_science(False)
+
+who_is_Ant_Man
+    when
+        is_man(True)
+        is_super_human(False)
+        able_to_fly(False)
+        using_weapon(False)
+        has_super_power(True)
+        close_combat(False)
+        is_rich(False)
+        is_product_of_science(True)		
+		
