@@ -7,10 +7,10 @@ who_is_Black_Widow
         questions.is_super_human(True)
         questions.able_to_fly(False)
         questions.using_weapon(True)
-        questions.has_super_power(True)
-        questions.close_combat(True)
-        questions.is_rich(False)
-        questions.is_product_of_science(False)
+        #questions.has_super_power(True)
+        #questions.close_combat(True)
+        #questions.is_rich(False)
+        #questions.is_product_of_science(False)
 		
 who_is_Scarlet_Witch
     use who_is(Scarlet_Witch)
@@ -21,8 +21,8 @@ who_is_Scarlet_Witch
         questions.using_weapon(False)
         questions.has_super_power(True)
         questions.close_combat(False)
-        questions.is_rich(False)
-        questions.is_product_of_science(False)
+        #questions.is_rich(False)
+        #questions.is_product_of_science(False)
 	
 who_is_Captain_Marvell
     use who_is(Captain_Marvell)
@@ -33,8 +33,8 @@ who_is_Captain_Marvell
         questions.using_weapon(False)
         questions.has_super_power(True)
         questions.close_combat(True)
-        questions.is_rich(False)
-        questions.is_product_of_science(True)
+        #questions.is_rich(False)
+        #questions.is_product_of_science(True)
 
 who_is_Hulk
     use who_is(Hulk)
@@ -43,10 +43,10 @@ who_is_Hulk
         questions.is_super_human(True)
         questions.able_to_fly(False)
         questions.using_weapon(False)
-        questions.has_super_power(True)
-        questions.close_combat(True)
-        questions.is_rich(False)
-        questions.is_product_of_science(True)
+        #questions.has_super_power(True)
+        #questions.close_combat(True)
+        #questions.is_rich(False)
+        #questions.is_product_of_science(True)
 	
 who_is_Iron_Man
     use who_is(Iron_Man)
@@ -55,10 +55,10 @@ who_is_Iron_Man
         questions.is_super_human(False)
         questions.able_to_fly(True)
         questions.using_weapon(True)
-        questions.has_super_power(False)
-        questions.close_combat(False)
-        questions.is_rich(True)
-        questions.is_product_of_science(True)
+        #questions.has_super_power(False)
+        #questions.close_combat(False)
+        #questions.is_rich(True)
+        #questions.is_product_of_science(True)
 
 who_is_Thor
     use who_is(Thor)
@@ -68,9 +68,9 @@ who_is_Thor
         questions.able_to_fly(True)
         questions.using_weapon(True)
         questions.has_super_power(True)
-        questions.close_combat(True)
-        questions.is_rich(True)
-        questions.is_product_of_science(False)
+        #questions.close_combat(True)
+        #questions.is_rich(True)
+        #questions.is_product_of_science(False)
 		
 who_is_Black_Panther
     use who_is(Black_Panther)
@@ -79,10 +79,10 @@ who_is_Black_Panther
         questions.is_super_human(True)
         questions.able_to_fly(False)
         questions.using_weapon(True)
-        questions.has_super_power(True)
-        questions.close_combat(True)
-        questions.is_rich(True)
-        questions.is_product_of_science(False)
+        #questions.has_super_power(True)
+        #questions.close_combat(True)
+        #questions.is_rich(True)
+        #questions.is_product_of_science(False)
 
 who_is_Ant_Man
     use who_is(Ant_Man)
@@ -90,11 +90,11 @@ who_is_Ant_Man
         questions.is_man(True)
         questions.is_super_human(False)
         questions.able_to_fly(False)
-        questions.using_weapon(False)
-        questions.has_super_power(True)
-        questions.close_combat(False)
-        questions.is_rich(False)
-        questions.is_product_of_science(True)
+        #questions.using_weapon(False)
+        #questions.has_super_power(True)
+        #questions.close_combat(False)
+        #questions.is_rich(False)
+        #questions.is_product_of_science(True)
 		
 		
 		
