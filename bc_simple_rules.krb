@@ -6,11 +6,6 @@ who_is_Black_Widow
         facts.is_man(False)
         facts.is_super_human(True)
         facts.able_to_fly(False)
-        facts.using_weapon(True)
-        facts.has_super_power(True)
-        facts.lose_combat(True)
-        facts.is_rich(False)
-        facts.is_product_of_science(False)
 
 who_is_Scarlet_Witch
     use who_is(Scarlet_Witch)
@@ -21,8 +16,6 @@ who_is_Scarlet_Witch
         facts.using_weapon(False)
         facts.has_super_power(True)
         facts.close_combat(False)
-        facts.is_rich(False)
-        facts.is_product_of_science(False)
 		
 	
 who_is_Captain_Marvell
@@ -34,8 +27,6 @@ who_is_Captain_Marvell
         facts.using_weapon(False)
         facts.has_super_power(True)
         facts.close_combat(True)
-        facts.is_rich(False)
-        facts.is_product_of_science(True)
 		
 who_is_Hulk
     use who_is(Hulk)
@@ -44,10 +35,6 @@ who_is_Hulk
         facts.is_super_human(True)
         facts.able_to_fly(False)
         facts.using_weapon(False)
-        facts.has_super_power(True)
-        facts.close_combat(True)
-        facts.is_rich(False)
-        facts.is_product_of_science(True)
 	
 who_is_Iron_Man
     use who_is(Iron_Man)
@@ -57,9 +44,6 @@ who_is_Iron_Man
         facts.able_to_fly(True)
         facts.using_weapon(True)
         facts.has_super_power(False)
-        facts.close_combat(False)
-        facts.is_rich(True)
-        facts.is_product_of_science(True)
 
 who_is_Thor
     use who_is(Thor)
@@ -69,9 +53,6 @@ who_is_Thor
         facts.able_to_fly(True)
         facts.using_weapon(True)
         facts.has_super_power(True)
-        facts.close_combat(True)
-        facts.is_rich(True)
-        facts.is_product_of_science(False)
 		
 who_is_Black_Panther
     use who_is(Black_Panther)
@@ -80,20 +61,11 @@ who_is_Black_Panther
         facts.is_super_human(True)
         facts.able_to_fly(False)
         facts.using_weapon(True)
-        facts.has_super_power(True)
-        facts.close_combat(True)
-        facts.is_rich(True)
-        facts.is_product_of_science(False)
 
 who_is_Ant_Man
     use who_is(Ant_Man)
     when
         facts.is_man(True)
         facts.is_super_human(False)
-        facts.able_to_fly(False)
-        facts.using_weapon(False)
-        facts.has_super_power(True)
-        facts.close_combat(False)
-        facts.is_rich(False)
-        facts.is_product_of_science(True)		
+        facts.able_to_fly(False)	
 		
